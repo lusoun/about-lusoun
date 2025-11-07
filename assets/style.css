@@ -46,7 +46,7 @@ img { display: block; max-width: 100%; height: auto; }
 /* Philosophy */
 .philosophy { background: linear-gradient(#0D1117, #1F2A34); }
 .silhouette { margin: 40px auto 0; height: 260px; border-radius: 28px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); position: relative; overflow: hidden; }
-.silhouette::after { content: ""; position: absolute; inset: -50%; background: conic-gradient(from 180deg, transparent, rgba(255,255,255,.2), transparent); animation: spin 12s linear infinite; opacity: .5; }
+.silhouette::after { content: ""; position: absolute; inset: 0%; background: conic-gradient(from 180deg, transparent, rgba(255,255,255,.2), transparent); animation: spin 12s linear infinite; opacity: .5; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* Carousel */
